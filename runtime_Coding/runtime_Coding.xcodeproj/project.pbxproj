@@ -15,6 +15,7 @@
 		3338F3141D5B63BC00CED6AA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3338F3121D5B63BC00CED6AA /* LaunchScreen.storyboard */; };
 		3338F31F1D5B63BD00CED6AA /* runtime_CodingTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3338F31E1D5B63BD00CED6AA /* runtime_CodingTests.m */; };
 		3338F32A1D5B63BD00CED6AA /* runtime_CodingUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3338F3291D5B63BD00CED6AA /* runtime_CodingUITests.m */; };
+		3338F3391D5B646300CED6AA /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = 3338F3381D5B646300CED6AA /* Person.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		3338F3251D5B63BD00CED6AA /* runtime_CodingUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = runtime_CodingUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3338F3291D5B63BD00CED6AA /* runtime_CodingUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = runtime_CodingUITests.m; sourceTree = "<group>"; };
 		3338F32B1D5B63BD00CED6AA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3338F3371D5B646300CED6AA /* Person.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
+		3338F3381D5B646300CED6AA /* Person.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +108,8 @@
 				3338F3081D5B63BC00CED6AA /* AppDelegate.m */,
 				3338F30A1D5B63BC00CED6AA /* ViewController.h */,
 				3338F30B1D5B63BC00CED6AA /* ViewController.m */,
+				3338F3371D5B646300CED6AA /* Person.h */,
+				3338F3381D5B646300CED6AA /* Person.m */,
 				3338F30D1D5B63BC00CED6AA /* Main.storyboard */,
 				3338F3101D5B63BC00CED6AA /* Assets.xcassets */,
 				3338F3121D5B63BC00CED6AA /* LaunchScreen.storyboard */,
@@ -275,6 +280,7 @@
 			files = (
 				3338F30C1D5B63BC00CED6AA /* ViewController.m in Sources */,
 				3338F3091D5B63BC00CED6AA /* AppDelegate.m in Sources */,
+				3338F3391D5B646300CED6AA /* Person.m in Sources */,
 				3338F3061D5B63BC00CED6AA /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
